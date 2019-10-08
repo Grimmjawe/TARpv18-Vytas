@@ -1,0 +1,18 @@
+:root {
+    --dark-color: #311d3f;
+    --light-color: #e23e57;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+body {
+    background-color: var(--dark-color);
+}
+.main-container {
+    width: 610px;
+    height: 800px;
+    border: 1pt solid white;
+    margin: 0 auto;
+}
