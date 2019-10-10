@@ -1,18 +1,50 @@
 :root {
-    --dark-color: #311d3f;
+    --dark-color: #293462;
     --light-color: #e23e57;
+    --super-gold: #fff1c1;
 }
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Indie Flower", cursive;
   }
 body {
     background-color: var(--dark-color);
 }
 .main-container {
+    position: relative;
     width: 610px;
     height: 800px;
-    border: 1pt solid white;
+    border: 1pt solid var(--super-gold);
+    color: var(--super-gold);
     margin: 0 auto;
+}
+h1{
+    position: absolute;
+    display: inline-block;
+    bottom: 5%;
+    left: 22.5%;
+}
+.cloud{
+    position: absolute;
+}
+.mountain{
+    position: absolute;
+    bottom: 15%;
+    left: 17.5%;
+    width: 400px;
+    height: 357px;
+}
+.cloud1{
+    top: 15%;
+    left: 12.5%;
+}
+.cloud2{
+    top: 20%;
+    right: 5%;
+}
+.cloud3{
+    top: 30%;
+    right: 15%;
 }
